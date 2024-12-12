@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    margin: 20px auto;
+    display: flex;
+    width: 60%;
+    height: 70px;
+    background-color: #dfdfdf;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav span {
+    padding: 0 200px;
+    font-size: 42px;
+    font-family: 'Bebas Neue';
+    letter-spacing: -1px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+}
+.featured img {
+    padding: 0 50px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 140px;
+}
+.featured h1 {
+    font-size: 115px;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    font-weight: normal;
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 45px;
+    justify-content: space-between;
+
+}
+.portfolio div{
+    height: 33%;
+    width: 33%;
+}
+.design, .art, .innovation, .technology, .photography, .inspiration {
+    padding-right: 45px;
+}
+
+.portfolio img {
+    height: 100%;
+    width: 100%;
+}
+.portfolio h3 {
+    margin-top: 5px;
+    font-size: 24px;
+}
+.portfolio h4 {
+    
+    margin-top: 5px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.about p {
+    margin: 90px 450px;
+    font-size: 47px;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    line-height: 52px;
+}
