@@ -2,76 +2,350 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: rgba(0, 0, 0, 1);
+}
+header {
+    margin: 0px auto;
+    display: flex;
+    width: 1344px;
+    height: 96px;
+    padding-top: 24px;  
 }
 nav {
-    margin: 20px auto;
+    margin: 0px auto;
     display: flex;
-    width: 60%;
-    height: 70px;
-    background-color: #dfdfdf;
-    padding: 20px;
+    width: 1080px;
+    height: 72px;
+    background-color: rgba(223,223,223,255);
+    padding: 24px 32px;
     justify-content: space-between;
     align-items: center;
+    border: 1px;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.16);
 }
-nav span {
-    padding: 0 200px;
+.logo {
     font-size: 42px;
     font-family: 'Bebas Neue';
-    letter-spacing: -1px;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+    line-height: 42px;
+    padding-right: 170px;
+    height: 72px;
+    width: 262px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
 }
 nav a{
     text-decoration: none;
-    color: black;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Roboto Mono';
+    line-height: 24px;
+}
+.pageLinks {
+    display: flex;
+    gap: 32px;
     align-items: center;
 }
-.featured img {
-    padding: 0 50px;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 140px;
+.contact-link {
+    height: 24px;
+    width: 72px;
+}
+main {
+    width: 1344px;
+    height: 3667px;
+    padding: 48px 0px;
+    margin: 0px auto;
+}
+.featured {
+    width: 1344px;
+    height: 1032px;
+    border-bottom: 1px;
+    padding: 96px 0px;
+    display: grid;
+    gap: 48px;
+}
+.featured .heading {
+    width: 1344px;
+    height: 120px;
 }
 .featured h1 {
-    font-size: 115px;
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: -2%;
     font-family: 'Bebas Neue';
     text-align: center;
-    font-weight: normal;
-    margin-top: 140px;
-    margin-bottom: 40px;
+    font-weight: 400;
 }
-.portfolio{
+.hero-image {
+    width: 1344px;
+    height: 672px;
+    border-top: 1px;
+}
+.hero-image img {
+    width: 1344px;
+    height: 672px;
+}
+
+.main-box {
+    width: 1344px;
+    height: 1191px;
+    border-bottom: 1px;
+
+}
+.product {
     display: flex;
-    flex-wrap: wrap;
-    margin: 0 45px;
-    justify-content: space-between;
-
+    flex-direction: column;
+    width: 416px;
+    height: 333px;
+    gap: 8px;
 }
-.portfolio div{
-    height: 33%;
-    width: 33%;
+.first-row {
+    width: 1344px;
+    height: 429px;
+    padding: 48px 0px;
+    display: flex;
+    gap: 48px;
 }
-.design, .art, .innovation, .technology, .photography, .inspiration {
-    padding-right: 45px;
+.row {
+    width: 1344px;
+    height: 429px;
+    padding-bottom: 48px;
+    display: flex;
+    gap: 48px;
 }
-
-.portfolio img {
-    height: 100%;
-    width: 100%;
-}
-.portfolio h3 {
-    margin-top: 5px;
-    font-size: 24px;
-}
-.portfolio h4 {
-    
-    margin-top: 5px;
+.main-box h3 {
+    font-family: 'Roboto Mono';
     font-size: 20px;
-    margin-bottom: 50px;
+    line-height: 24px;
+    font-weight: 400;
 }
-.about p {
-    margin: 90px 450px;
-    font-size: 47px;
+.main-box h4 {
+    font-family: 'Roboto Mono';
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.about {
+    width: 1344px;
+    height: 348px;
+    border-bottom: 1px;
+    padding: 96px 0;
+}
+.about-text {
+    margin: 50px auto;
+    width: 900px;
+    height: 156px;
+    max-width: 900px;
+}
+.about-text p {
     font-family: 'Bebas Neue';
     text-align: center;
+    font-size: 48px;
+    font-weight: 400;
     line-height: 52px;
+    letter-spacing: -1px;
+    margin: 0 auto;
+}
+.services-container {
+    margin-top: 50px;
+    width: 1344px;
+    height: 280px;
+    padding: 48px 0;
+    display: flex;
+    gap: 48px;
+}
+.services-container > p {
+    width: 648px;
+    height: 32px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1%;
+}
+.services-box {
+    width: 648px;
+    height: 184px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.services {
+    width: 648px;
+    height: 24px;
+    display: flex;
+    gap: 48px;
+}
+.services p {
+    width: 300px;
+    height: 24px;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.portfolio-para-box {
+    width: 1344px;
+    height: 320px;
+    padding: 48px 0;
+    display: flex;
+    gap: 48px;
+}
+
+.spacer {
+    width: 648px;
+    height: 154px;
+}
+
+.portfolio-para-box p {
+    width: 648px;
+    height: 224px;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+}
+.testimonial {
+    width: 1344px;
+    height: 400px;
+    border-bottom: 1px;
+    padding: 48px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.testimonial h2 {
+    margin: 0 auto;
+    width: 1260px;
+    height: 52px;
+    max-width: 1260px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -1px;
+    text-align: center;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.comments {
+    width: 1344px;
+    height: 204px;
+    display: flex;
+    gap: 24px;
+}
+.testimonial-card {
+    width: 288px;
+    height: 192px;
+    border-top: 1px;
+    padding: 24px;
+    gap: 16px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonial-card:nth-child(2) {
+    width: 288px;
+    height: 204px;
+    border-top: 1px;
+    padding: 24px;
+    gap: 16px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile {
+    width: 240px;
+    height: 48px;
+    display: flex;
+    gap: 12px;
+}
+.profile img {
+    width: 48px;
+    height: 48px;
+    border-radius: 999px;
+    border-top: 1px;
+}
+
+.profile-text {
+    width: 180px;
+    height: 40px;
+    margin: auto 0;
+}
+.profile-text-2 {
+    width: 180px;
+    height: 60px;
+    margin: auto 0;
+}
+.profile-text-2 > p {
+    width: 180px;
+    height: 40px;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.profile-text p {
+    width: 180px;
+    height: 20px;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+.quote-box-2 {  
+    width: 240px;
+    height: 80px;
+    padding-bottom: 8px;
+    display: flex;
+    gap: 12px;
+    opacity: 80%;
+    padding-top: 10px;
+}
+.quote-box {  
+    width: 240px;
+    height: 80px;
+    padding-bottom: 8px;
+    display: flex;
+    gap: 12px;
+    opacity: 80%;
+}
+.line-container {
+    width: 48px;
+    height: 72px;
+}
+.line {
+    border-left: 1px solid rgba(0, 0, 0, 1);
+    height: 72px;
+    margin: 0 23px;
+}
+.quote-box p {
+    width: 180px;
+    height: 72px;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 auto;
+}
+.quote-box-2 p {
+    width: 180px;
+    height: 72px;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 auto;
 }
