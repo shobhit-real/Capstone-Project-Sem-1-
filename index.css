@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(0, 0, 0);
 }
 header {
     margin: 0px auto;
@@ -240,6 +240,7 @@ main {
     height: 204px;
     display: flex;
     gap: 24px;
+    overflow-x: scroll;
 }
 .testimonial-card {
     width: 288px;
@@ -348,4 +349,50 @@ main {
     font-size: 20px;
     line-height: 24px;
     margin: 0 auto;
+}
+.divider {
+    width: 1536px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    opacity: 60%;
+}
+footer {
+    width: 1344px;
+    height: 168px;
+    border-top: 1px;
+    padding-top: 96px;
+    padding-bottom: 24px;
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+}
+.footer-box {
+    width: 1344px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box p {
+    width: 245px;
+    height: 32px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1%;
+    ;
+}
+.footer-box button {
+    margin: auto 0;
+    width: 169px;
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 12px 24px;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -1px;
+    background-color: white;
 }
