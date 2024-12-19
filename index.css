@@ -271,6 +271,18 @@ main {
     justify-content: center;
     align-items: center;
 }
+.testimonial-card:nth-child(5), .testimonial-card:nth-child(6) {
+    width: 288px;
+    height: 180px;
+    border-top: 1px;
+    padding: 24px;
+    gap: 16px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .profile {
     width: 240px;
     height: 48px;
@@ -289,12 +301,7 @@ main {
     height: 40px;
     margin: auto 0;
 }
-.profile-text-2 {
-    width: 180px;
-    height: 60px;
-    margin: auto 0;
-}
-.profile-text-2 > p {
+.profile-text-x > p {
     width: 180px;
     height: 40px;
     font-family: 'Roboto Mono';
@@ -320,6 +327,15 @@ main {
     opacity: 80%;
     padding-top: 10px;
 }
+.quote-box-x {  
+    width: 240px;
+    height: 60px;
+    padding-bottom: 8px;
+    display: flex;
+    gap: 12px;
+    opacity: 80%;
+    padding-top: 14px;
+}
 .quote-box {  
     width: 240px;
     height: 80px;
@@ -331,6 +347,15 @@ main {
 .line-container {
     width: 48px;
     height: 72px;
+}
+.line-container-x {
+    width: 48px;
+    height: 60px;
+}
+.line-x {
+    border-left: 1px solid rgba(0, 0, 0, 1);
+    height: 60px;
+    margin: 0 23px;
 }
 .line {
     border-left: 1px solid rgba(0, 0, 0, 1);
@@ -349,6 +374,15 @@ main {
 .quote-box-2 p {
     width: 180px;
     height: 72px;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 auto;
+}
+.quote-box-x p {
+    width: 180px;
+    height: 60px;
     font-family: 'Roboto Mono';
     font-weight: 400;
     font-size: 20px;
